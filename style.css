@@ -1,0 +1,67 @@
+/*style.css*/
+
+img {
+    width: auto;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%; 
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: hsl(0, 7%, 14%);
+}
+
+li {
+    float:left;
+}
+li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Inter", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.active {
+    background-color: hsl(350, 80%, 50%);
+}
+
+.logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: hsl(0, 7%, 14%);
+    font-size: 50px;
+    padding: 5px;
+    font-variant: small-caps;
+}
+
+li a:hover:not(.active) {
+    background-color: hsl(0, 4%, 24%);
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+button {
+    background-color: hsl(350, 80%, 50%);
+    color: white;
+    font-family: "Inter", sans-serif;
+    border: none;
+    border-radius: 8px;
+
+
+}
